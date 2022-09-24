@@ -1,5 +1,7 @@
-# Raul Jimenez 19017
-# Donaldo Garcia 19683
+"""
+	@autor: Raul Jimenez 19017
+	@autor: Donaldo Garcia 19683
+"""
 
 # %%
 import random
