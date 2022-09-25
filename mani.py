@@ -90,7 +90,7 @@ def server(rate, time, name):
 	print(f'El momento de salida de la ultima solicitud fue {D[-1]}')
 
 # %%
-server(100/60, 3600, 'Mountain Mega Computers')
+server(100, 3600, 'Mountain Mega Computers')
 print()
 # %%
 """
@@ -174,5 +174,9 @@ def multi(num_servers, time, speed, name):
 	print("Ultima llegada:", A[-1], "s.")
 	print("Ultima salida:", D[-1], "s.")
 # %%
-multi(10, 3600, 1/6, "Pizzita computing")
-# %%
+multi(10, 3600, 1000/10, "Pizzita computing")
+# %% Tercer inciso
+# print()
+# server(100, 3600, 'Mountain Mega Computers')
+# print()
+# multi(10, 3600, 1000/10, "Pizzita computing")
